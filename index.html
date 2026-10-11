@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samia Abdullah | Graphic Designer Portfolio</title>
+  <meta name="description" content="Portfolio of Samia Abdullah - Graphic Designer specializing in brand visual identity, creative design, and social media graphics. Trained at NTI.">
+  <meta name="theme-color" content="#BDB2FF">
+
+  <!-- Google Fonts: Modern & Elegant Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================================================
+       BACKGROUND DECORATIVE ANIMATION & BLOBS
+       ================================================== -->
+  <div class="ambient-background" aria-hidden="true">
+    <div class="ambient-blob blob-1" id="blob-1"></div>
+    <div class="ambient-blob blob-2" id="blob-2"></div>
+    <div class="ambient-blob blob-3" id="blob-3"></div>
+    <div class="ambient-blob blob-4" id="blob-4"></div>
+    <div class="floating-particle particle-1"></div>
+    <div class="floating-particle particle-2"></div>
+    <div class="floating-particle particle-3"></div>
+    <div class="floating-particle particle-4"></div>
+  </div>
+
+  <!-- ==================================================
+       HEADER & NAVIGATION
+       ================================================== -->
+  <header class="site-header" id="header">
+    <div class="header-container">
+      <a href="#home" class="brand-logo" aria-label="Samia Abdullah Home">
+        <span class="brand-name">Samia</span>
+        <span class="brand-dot">.</span>
+        <span class="brand-role">Design</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="main-nav" id="main-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Button & Hamburger for Mobile -->
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-header d-none-mobile">Let's Talk</a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Navigation -->
+    <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+      <ul class="mobile-nav-list">
+        <li><a href="#home" class="mobile-nav-link active">Home</a></li>
+        <li><a href="#about" class="mobile-nav-link">About</a></li>
+        <li><a href="#education" class="mobile-nav-link">Education</a></li>
+        <li><a href="#experience" class="mobile-nav-link">Experience</a></li>
+        <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+        <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+        <li><a href="#testimonials" class="mobile-nav-link">Testimonials</a></li>
+        <li><a href="#services" class="mobile-nav-link">Services</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+      <div class="mobile-nav-cta">
+        <a href="#contact" class="btn btn-primary btn-block">Get In Touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ==================================================
+         1. HOME (HERO) SECTION
+         ================================================== -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        
+        <!-- Hero Left Column -->
+        <div class="hero-content reveal-on-scroll">
+          <div class="hero-pill">
+            <span class="pill-sparkle">✦</span>
+            <span>Graphic Designer & Visual Artist</span>
+          </div>
+
+          <h1 class="hero-title">
+            Samia <span class="text-gradient">Abdullah</span>
+          </h1>
+
+          <div class="hero-role-wrapper">
+            <p class="hero-subtitle">Graphic Designer</p>
+          </div>
+
+          <div class="hero-badge-tag">
+            <span class="tag-icon">🏛</span>
+            <span>Trained at NTI | Graphic Design Course</span>
+          </div>
+
+          <p class="hero-description">
+            Passionate about creating creative and visually appealing designs that communicate meaningful ideas and bring brands to life.
+          </p>
+
+          <div class="hero-cta-group">
+            <!-- Smooth scroll to Projects section -->
+            <a href="#projects" class="btn btn-primary" id="btn-view-projects">
+              <span>View Project</span>
+              <svg class="btn-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <path d="M3.33334 8H12.6667" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M8 3.33334L12.6667 8L8 12.6667" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+
+            <!-- CV DOWNLOAD BUTTON:
+                 Place your CV PDF file named "Samia-Abdullah-CV.pdf" inside the "assets" folder.
+                 Example path: portfolio/assets/Samia-Abdullah-CV.pdf -->
+            <a href="assets/Samia-Abdullah-CV.pdf" download="Samia-Abdullah-CV.pdf" class="btn btn-secondary" id="btn-download-cv">
+              <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>CV</span>
+            </a>
+          </div>
+
+          <!-- Hero Highlight Stats -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Creative Dedication</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">NTI</span>
+              <span class="stat-label">Certified Trainee</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">Brand</span>
+              <span class="stat-label">& Social Focus</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right Column (Image Showcase) -->
+        <div class="hero-visual reveal-on-scroll">
+          <div class="hero-image-stage" id="hero-interactive-stage">
+            <!-- Decorative Backing Shapes -->
+            <div class="decorative-aura" aria-hidden="true"></div>
+            <div class="decorative-ring" aria-hidden="true"></div>
+
+            <!-- Profile Image Container -->
+            <div class="profile-frame">
+              <div class="profile-image-box">
+                <!-- ADD YOUR PROFILE IMAGE HERE -->
+                <img src="assets/images/Profile.jpg"
+                     alt="Samia Abdullah - Graphic Designer"
+                     class="profile-img"
+                     loading="eager"
+                     onerror="this.classList.add('img-fallback-active')">
+                <div class="image-fallback-placeholder" aria-hidden="true">
+                  <div class="fallback-icon">✦</div>
+                  <span class="fallback-title">Samia Abdullah</span>
+                  <span class="fallback-desc">Graphic Designer</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating Decorative Badges -->
+            <div class="floating-tag tag-float-1" data-parallax-speed="0.05">
+              <span class="floating-icon">🎨</span>
+              <div class="floating-text">
+                <strong>Visual Identity</strong>
+                <span>Creative Concepts</span>
+              </div>
+            </div>
+
+            <div class="floating-tag tag-float-2" data-parallax-speed="-0.04">
+              <span class="floating-icon">✨</span>
+              <div class="floating-text">
+                <strong>Modern Aesthetics</strong>
+                <span>Clean & Elegant</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================================================
+         2. ABOUT ME SECTION
+         ================================================== -->
+    <section class="about-section section-padding" id="about">
+      <div class="container">
+        
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-tag">Get To Know Me</span>
+          <h2 class="section-title">About <span class="text-gradient">Me</span></h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          
+          <div class="about-card-main reveal-on-scroll">
+            <div class="about-quote-mark">“</div>
+            <p class="about-text-lead">
+              Samia Abdullah is a creative Graphic Designer who is passionate about creating visually appealing designs and communicating ideas through strong visual concepts.
+            </p>
+            <p class="about-text-sub">
+              She is interested in graphic design, branding, visual identity, social media design, and creative visual communication.
+            </p>
+
+            <div class="about-signature-wrapper">
+              <span class="about-signature">Samia Abdullah</span>
+              <span class="about-signature-role">Creative Graphic Designer</span>
+            </div>
+          </div>
+
+          <div class="about-features-column">
+            
+            <div class="info-card reveal-on-scroll">
+              <div class="info-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="m4.93 4.93 4.24 4.24"></path>
+                  <path d="m14.83 9.17 4.24-4.24"></path>
+                  <path d="m14.83 14.83 4.24 4.24"></path>
+                  <path d="m9.17 14.83-4.24 4.24"></path>
+                </svg>
+              </div>
+              <div class="info-card-text">
+                <h3 class="info-card-title">Branding & Visual Identity</h3>
+                <p class="info-card-desc">Translating core values into compelling aesthetic narratives and cohesive brand systems.</p>
+              </div>
+            </div>
+
+            <div class="info-card reveal-on-scroll">
+              <div class="info-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </div>
+              <div class="info-card-text">
+                <h3 class="info-card-title">Social Media Design</h3>
+                <p class="info-card-desc">Designing attractive, high-converting social media creatives that connect with audiences.</p>
+              </div>
+            </div>
+
+            <div class="info-card reveal-on-scroll">
+              <div class="info-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+              </div>
+              <div class="info-card-text">
+                <h3 class="info-card-title">Visual Communication</h3>
+                <p class="info-card-desc">Artfully structuring visual balance, typography, and palettes to deliver maximum clarity.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================================================
+         3. EDUCATION SECTION
+         ================================================== -->
+    <section class="education-section section-padding" id="education">
+      <div class="container">
+        
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">My <span class="text-gradient">Education</span></h2>
+          <div class="section-divider"></div>
+          <p class="section-subtext">The academic foundation supporting my creative design journey.</p>
+        </div>
+
+        <div class="education-timeline-wrapper">
+          <div class="timeline-track" aria-hidden="true"></div>
+
+          <!-- Main Education Item -->
+          <div class="education-card reveal-on-scroll">
+            <div class="card-pin">
+              <div class="pin-inner"></div>
+            </div>
+            <div class="education-card-body">
+              <div class="card-badge">University Education</div>
+              <h3 class="education-institution">Faculty of Specific Education</h3>
+              <p class="education-focus">Specialization in Visual & Creative Arts</p>
+              <p class="education-description">
+                Focused on academic design principles, creative visual representation, artistic composition, and aesthetic problem solving.
+              </p>
+              <div class="education-tags">
+                <span class="edu-tag">Design Principles</span>
+                <span class="edu-tag">Visual Arts</span>
+                <span class="edu-tag">Creative Composition</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- NOTE: TO ADD MORE EDUCATIONAL ACHIEVEMENTS IN THE FUTURE,
+               DUPLICATE THE "education-card" DIV BLOCK ABOVE HERE -->
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================================================
+         4. EXPERIENCE SECTION
+         ================================================== -->
+    <section class="experience-section section-padding" id="experience">
+      <div class="container">
+        
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-tag">Professional Training</span>
+          <h2 class="section-title">My <span class="text-gradient">Experience</span></h2>
+          <div class="section-divider"></div>
+          <p class="section-subtext">Hands-on practical training and specialized design courses.</p>
+        </div>
+
+        <div class="experience-grid">
+
+          <!-- Primary Experience Card -->
+          <div class="experience-card primary-exp reveal-on-scroll">
+            <div class="exp-icon-pill">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+              <span>Practical Training</span>
+            </div>
+            <h3 class="exp-role">Graphic Design Trainee</h3>
+            <div class="exp-organization">National Telecommunication Institute (NTI)</div>
+            <p class="exp-description">
+              Intensive training program focused on practical design production, visual identity development, digital artwork workflows, and industry-standard creative tools.
+            </p>
+            <div class="exp-bullet-list">
+              <div class="exp-bullet">
+                <span class="bullet-check">✓</span>
+                <span>Practical application of design theory in commercial concepts</span>
+              </div>
+              <div class="exp-bullet">
+                <span class="bullet-check">✓</span>
+                <span>Creation of professional graphic visual assets and brand layouts</span>
+              </div>
+              <div class="exp-bullet">
+                <span class="bullet-check">✓</span>
+                <span>Collaborative feedback workflows and design refinement</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Courses & Specialized Training Card -->
+          <div class="experience-card courses-exp reveal-on-scroll">
+            <div class="exp-icon-pill">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+              <span>Certifications</span>
+            </div>
+            <h3 class="exp-role">Training and Courses</h3>
+            <div class="exp-organization">Comprehensive Skill Development</div>
+            <div class="courses-list">
+              
+              <div class="course-item">
+                <div class="course-header">
+                  <div class="course-badge">Course 01</div>
+                  <h4 class="course-name">Graphic Design Course</h4>
+                </div>
+                <p class="course-desc">
+                  Focused study covering industry graphic software, visual aesthetics, color harmony, typography rules, and commercial branding.
+                </p>
+              </div>
+
+              <div class="course-item">
+                <div class="course-header">
+                  <div class="course-badge">Course 02</div>
+                  <h4 class="course-name">Marketing Course</h4>
+                </div>
+                <p class="course-desc">
+                  Strategic understanding of marketing fundamentals, consumer psychology, target audience analysis, and digital campaign visuals.
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================================================
+         5. SKILLS SECTION
+         ================================================== -->
+    <section class="skills-section section-padding" id="skills">
+      <div class="container">
+        
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-tag">Design Competencies</span>
+          <h2 class="section-title">My <span class="text-gradient">Skills</span></h2>
+          <div class="section-divider"></div>
+          <p class="section-subtext">Creative software expertise and visual design capabilities.</p>
+        </div>
+
+        <div class="skills-grid">
+
+          <!-- Skill 1: Photoshop -->
+          <div class="skill-card reveal-on-scroll">
+            <div class="skill-card-top">
+              <div class="skill-icon-badge ps-badge">Ps</div>
+              <span class="skill-level-pill">Expert</span>
+            </div>
+            <h3 class="skill-name">Adobe Photoshop</h3>
+            <p class="skill-desc">
+              Photo manipulation, high-impact social media creatives, visual composition, digital artwork, and creative retouching.
+            </p>
+            <div class="skill-meter-wrap">
+              <div class="skill-meter-header">
+                <span>Proficiency</span>
+                <span class="skill-percentage">95%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="progress-fill" style="--skill-width: 95%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 2: Illustrator -->
+          <div class="skill-card reveal-on-scroll">
+            <div class="skill-card-top">
+              <div class="skill-icon-badge ai-badge">Ai</div>
+              <span class="skill-level-pill">Expert</span>
+            </div>
+            <h3 class="skill-name">Adobe Illustrator</h3>
+            <p class="skill-desc">
+              Vector graphic design, brand logo marks, typography styling, custom iconography, and scalable brand identity assets.
+            </p>
+            <div class="skill-meter-wrap">
+              <div class="skill-meter-header">
+                <span>Proficiency</span>
+                <span class="skill-percentage">92%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="progress-fill" style="--skill-width: 92%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 3: Captivate -->
+          <div class="skill-card reveal-on-scroll">
+            <div class="skill-card-top">
+              <div class="skill-icon-badge cp-badge">Cp</div>
+              <span class="skill-level-pill">Proficient</span>
+            </div>
+            <h3 class="skill-name">Adobe Captivate</h3>
+            <p class="skill-desc">
+              Interactive visual media, educational technology design, structured layouts, and multimedia content presentations.
+            </p>
+            <div class="skill-meter-wrap">
+              <div class="skill-meter-header">
+                <span>Proficiency</span>
+                <span class="skill-percentage">85%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="progress-fill" style="--skill-width: 85%;"></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Additional Core Design Competencies -->
+        <div class="competencies-banner reveal-on-scroll">
+          <h4 class="competencies-title">Core Design Principles & Strengths</h4>
+          <div class="competency-chips">
+            <span class="chip">✦ Brand Visual Identity</span>
+            <span class="chip">✦ Social Media Graphics</span>
+            <span class="chip">✦ Color Theory & Harmony</span>
+            <span class="chip">✦ Typography & Hierarchy</span>
+            <span class="chip">✦ Layout Composition</span>
+            <span class="chip">✦ Creative Storytelling</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================================================
+         6. PROJECTS SECTION
+         ================================================== -->
+    <section class="projects-section section-padding" id="projects">
+      <div class="container">
+        
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-tag">Portfolio Showcase</span>
+          <h2 class="section-title">Featured <span class="text-gradient">Projects</span></h2>
+          <div class="section-divider"></div>
+          <p class="section-subtext">Selected visual identity and graphic design work.</p>
+        </div>
+
+        <div class="projects-container">
+          
+          <!-- MAIN FEATURED PROJECT CARD: RASHFA -->
+          <div class="project-card reveal-on-scroll">
+            
+            <div class="project-media-wrap">
+              <div class="project-media-frame">
+                <!-- ADD RASHFA PROJECT IMAGE HERE -->
+                <img src="assets/images/5902391551818666400.jpg"
+                     alt="Rashfa branding project"
+                     class="project-img"
+                     loading="lazy"
+                     onerror="this.classList.add('img-fallback-active')">
+                <div class="project-fallback-placeholder" aria-hidden="true">
+                  <div class="project-fallback-leaf">🌿</div>
+                  <span class="project-fallback-title">Rashfa</span>
+                  <span class="project-fallback-tag">Brand Identity Showcase</span>
+                </div>
+              </div>
+              <div class="project-overlay-badge">
+                <span>Featured Project</span>
+              </div>
+            </div>
+
+            <div class="project-info-wrap">
+              <div class="project-category-pill">Brand Visual Identity & Concept</div>
+              <h3 class="project-title">Rashfa</h3>
+              <p class="project-description">
+                A creative visual identity and branding concept inspired by natural plants and fresh, organic elements. Designed to communicate purity, elegance, and natural harmony through earthy visual accents and modern typographic balance.
+              </p>
+
+              <div class="project-meta-tags">
+                <span class="meta-tag">Branding</span>
+                <span class="meta-tag">Visual Identity</span>
+                <span class="meta-tag">Organic Theme</span>
+                <span class="meta-tag">Packaging Concept</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="#contact" class="btn btn-primary">
+                  <span>View Project Details</span>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- ==============================================
+               NOTE FOR ADDING MORE PROJECTS:
+               You can duplicate the project-card block above,
+               change the title, category, description, and image!
+               ============================================== -->
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================================================
+         7. TESTIMONIALS SECTION (SLIDER)
+         ================================================== -->
+    <section class="testimonials-section section-padding" id="testimonials">
+      <div class="container">
+        
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-tag">Kind Words</span>
+          <h2 class="section-title">Client <span class="text-gradient">Testimonials</span></h2>
+          <div class="section-divider"></div>
+          <p class="section-subtext">What collaborators and clients say about my work.</p>
+        </div>
+
+        <div class="testimonials-carousel-wrapper reveal-on-scroll">
+          
+          <!-- Slider Track Container -->
+          <div class="slider-viewport" id="testimonial-viewport">
+            <div class="slider-track" id="testimonial-track">
+
+              <!-- Testimonial Card 1 -->
+              <div class="testimonial-slide" role="group" aria-label="1 of 5">
+                <div class="testimonial-card">
+                  <div class="quote-sign">“</div>
+                  <div class="star-rating" aria-label="5 out of 5 stars">
+                    ★★★★★
+                  </div>
+                  <blockquote class="testimonial-quote">
+                    "Samia was creative, professional, and delivered a beautiful design. Her vision for our brand identity exceeded our expectations."
+                  </blockquote>
+                  <div class="testimonial-author">
+                    <div class="author-avatar-text">SM</div>
+                    <div class="author-info">
+                      <h4 class="author-name">Sarah M.</h4>
+                      <p class="author-role">Brand Client</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial Card 2 -->
+              <div class="testimonial-slide" role="group" aria-label="2 of 5">
+                <div class="testimonial-card">
+                  <div class="quote-sign">“</div>
+                  <div class="star-rating" aria-label="5 out of 5 stars">
+                    ★★★★★
+                  </div>
+                  <blockquote class="testimonial-quote">
+                    "Working with Samia was smooth and inspiring. She has a deep eye for color palette subtleties and created clean, modern social posts for us."
+                  </blockquote>
+                  <div class="testimonial-author">
+                    <div class="author-avatar-text">NK</div>
+                    <div class="author-info">
+                      <h4 class="author-name">Nourhan K.</h4>
+                      <p class="author-role">Creative Lead</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial Card 3 -->
+              <div class="testimonial-slide" role="group" aria-label="3 of 5">
+                <div class="testimonial-card">
+                  <div class="quote-sign">“</div>
+                  <div class="star-rating" aria-label="5 out of 5 stars">
+                    ★★★★★
+                  </div>
+                  <blockquote class="testimonial-quote">
+                    "The visual identity concepts she created were vibrant and polished. Her dedication to client requirements is genuinely commendable."
+                  </blockquote>
+                  <div class="testimonial-author">
+                    <div class="author-avatar-text">LH</div>
+                    <div class="author-info">
+                      <h4 class="author-name">Laila H.</h4>
+                      <p class="author-role">Project Manager</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial Card 4 -->
+              <div class="testimonial-slide" role="group" aria-label="4 of 5">
+                <div class="testimonial-card">
+                  <div class="quote-sign">“</div>
+                  <div class="star-rating" aria-label="5 out of 5 stars">
+                    ★★★★★
+                  </div>
+                  <blockquote class="testimonial-quote">
+                    "Samia brought fresh energy to our project. She delivered clean files, elegant vector graphics, and kept communication very prompt."
+                  </blockquote>
+                  <div class="testimonial-author">
+                    <div class="author-avatar-text">MT</div>
+                    <div class="author-info">
+                      <h4 class="author-name">Mariam T.</h4>
+                      <p class="author-role">Marketing Specialist</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial Card 5 -->
+              <div class="testimonial-slide" role="group" aria-label="5 of 5">
+                <div class="testimonial-card">
+                  <div class="quote-sign">“</div>
+                  <div class="star-rating" aria-label="5 out of 5 stars">
+                    ★★★★★
+                  </div>
+                  <blockquote class="testimonial-quote">
+                    "Her creative thinking in translating natural plant themes into digital visual assets was truly remarkable. A talented designer with great taste!"
+                  </blockquote>
+                  <div class="testimonial-author">
+                    <div class="author-avatar-text">YE</div>
+                    <div class="author-info">
+                      <h4 class="author-name">Yasmine E.</h4>
+                      <p class="author-role">Business Owner</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Slider Controls -->
+          <div class="slider-navigation">
+            <button class="slider-arrow-btn prev-btn" id="slider-prev" aria-label="Previous Testimonial">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="15 18 9 12 15 6"></polyline>
+              </svg>
+            </button>
+
+            <!-- Dots Indicator -->
+            <div class="slider-dots" id="slider-dots" role="tablist" aria-label="Testimonial Navigation">
+              <!-- Dots generated by script.js -->
+            </div>
+
+            <button class="slider-arrow-btn next-btn" id="slider-next" aria-label="Next Testimonial">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================================================
+         8. SERVICES SECTION
+         ================================================== -->
+    <section class="services-section section-padding" id="services">
+      <div class="container">
+        
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-tag">Specialized Expertise</span>
+          <h2 class="section-title">My <span class="text-gradient">Services</span></h2>
+          <div class="section-divider"></div>
+          <p class="section-subtext services-lead-text">
+            Graphic Designer specializing in Social Media Posts and Complete Brand Visual Identity.
+          </p>
+        </div>
+
+        <div class="services-grid">
+
+          <!-- Service 1: Social Media Design -->
+          <div class="service-card reveal-on-scroll">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Social Media Design</h3>
+            <p class="service-desc">
+              Tailored, high-impact social media posts, story templates, carousel slides, and promotional banners designed to capture attention and boost brand engagement.
+            </p>
+            <ul class="service-features">
+              <li>Instagram & Facebook Post Graphics</li>
+              <li>Story & Reel Cover Graphics</li>
+              <li>Promotional Campaign Visuals</li>
+            </ul>
+          </div>
+
+          <!-- Service 2: Brand Visual Identity -->
+          <div class="service-card reveal-on-scroll">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Brand Visual Identity</h3>
+            <p class="service-desc">
+              Holistic visual systems including brand color palettes, typographic hierarchies, graphic elements, and aesthetic guidelines that create a distinctive presence.
+            </p>
+            <ul class="service-features">
+              <li>Comprehensive Visual Style Direction</li>
+              <li>Color Palettes & Typography Pairings</li>
+              <li>Brand Assets & Stationary Guidelines</li>
+            </ul>
+          </div>
+
+          <!-- Service 3: Logo Design -->
+          <div class="service-card reveal-on-scroll">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+            </div>
+            <h3 class="service-title">Logo Design</h3>
+            <p class="service-desc">
+              Crafting unique, memorable, and scalable logo marks that distill your business identity into a clean and timeless visual symbol.
+            </p>
+            <ul class="service-features">
+              <li>Original Vector Mark Design</li>
+              <li>Multiple Variation Layouts</li>
+              <li>Ready-to-Use Export Files</li>
+            </ul>
+          </div>
+
+          <!-- Service 4: Branding -->
+          <div class="service-card reveal-on-scroll">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Branding</h3>
+            <p class="service-desc">
+              Developing consistent and resonant brand touchpoints across print and digital media to position your project with sophistication and elegance.
+            </p>
+            <ul class="service-features">
+              <li>Brand Concept Conceptualization</li>
+              <li>Packaging & Label Graphic Accents</li>
+              <li>Unified Marketing Collateral</li>
+            </ul>
+          </div>
+
+          <!-- Service 5: Creative Design -->
+          <div class="service-card reveal-on-scroll">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 20h9"></path>
+                <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Creative Design</h3>
+            <p class="service-desc">
+              Custom artistic layouts, promotional flyers, posters, digital illustrations, and tailored creative visual solutions for distinctive campaigns.
+            </p>
+            <ul class="service-features">
+              <li>Digital & Print Artworks</li>
+              <li>Creative Poster & Flyer Composition</li>
+              <li>Bespoke Visual Compositions</li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================================================
+         9. GET IN TOUCH SECTION
+         ================================================== -->
+    <section class="contact-section section-padding" id="contact">
+      <div class="container">
+        
+        <div class="contact-card-wrapper reveal-on-scroll">
+          
+          <div class="section-header text-center">
+            <span class="section-tag">Let's Connect</span>
+            <h2 class="section-title">Get In <span class="text-gradient">Touch</span></h2>
+            <div class="section-divider"></div>
+            <p class="contact-invitation">
+              Have an upcoming project, need a custom visual identity, or looking for eye-catching social media designs? I'd love to collaborate with you to create something exceptional!
+            </p>
+          </div>
+
+          <!-- Two Main Contact Buttons -->
+          <div class="contact-actions-row">
+            
+            <!-- WHATSAPP BUTTON:
+                 REPLACE 'YOURNUMBER' WITH YOUR ACTUAL PHONE NUMBER INCLUDING COUNTRY CODE.
+                 Example: https://wa.me/201234567890 -->
+            <a href="https://wa.me/YOURNUMBER" target="_blank" rel="noopener noreferrer" class="btn btn-contact btn-whatsapp" id="contact-whatsapp">
+              <div class="contact-btn-icon whatsapp-bg">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                </svg>
+              </div>
+              <div class="contact-btn-content">
+                <span class="contact-label">Chat Directly</span>
+                <span class="contact-channel">WhatsApp</span>
+              </div>
+              <span class="contact-arrow" aria-hidden="true">→</span>
+            </a>
+
+            <!-- GMAIL BUTTON:
+                 REPLACE 'YOUR_EMAIL@gmail.com' WITH YOUR ACTUAL GMAIL ADDRESS.
+                 Example: mailto:samia.designer@gmail.com -->
+            <a href="mailto:YOUR_EMAIL@gmail.com" class="btn btn-contact btn-gmail" id="contact-gmail">
+              <div class="contact-btn-icon gmail-bg">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="contact-btn-content">
+                <span class="contact-label">Send an Email</span>
+                <span class="contact-channel">Gmail</span>
+              </div>
+              <span class="contact-arrow" aria-hidden="true">→</span>
+            </a>
+
+          </div>
+
+          <!-- Contact Extra Info Bar -->
+          <div class="contact-extra-info">
+            <div class="extra-info-item">
+              <span class="info-dot"></span>
+              <span>Available for Freelance & Custom Projects</span>
+            </div>
+            <div class="extra-info-item">
+              <span class="info-dot"></span>
+              <span>Prompt Response & Dedicated Attention</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================================================
+       FOOTER SECTION
+       ================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      
+      <div class="footer-brand-col">
+        <a href="#home" class="brand-logo footer-logo">
+          <span class="brand-name">Samia</span>
+          <span class="brand-dot">.</span>
+          <span class="brand-role">Design</span>
+        </a>
+        <p class="footer-tagline">
+          Graphic Designer passionate about crafting visual identities and creative designs that inspire.
+        </p>
+      </div>
+
+      <div class="footer-nav-col">
+        <h4 class="footer-heading">Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-nav-col">
+        <h4 class="footer-heading">Portfolio</h4>
+        <ul class="footer-links">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Get In Touch</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact-col">
+        <h4 class="footer-heading">Connect</h4>
+        <div class="footer-buttons">
+          <a href="https://wa.me/01289591209" target="_blank" rel="noopener noreferrer" class="footer-mini-btn">WhatsApp</a>
+          <a href="mailto:samiasherif707@gmail.com" class="footer-mini-btn">Gmail</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p class="copyright-text">
+          &copy; 2026 Samia Abdullah. All Rights Reserved.
+        </p>
+        <p class="footer-credit">
+          Designed with elegance & creativity.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top of page">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Vanilla JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
